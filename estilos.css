@@ -1,0 +1,70 @@
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    background: rgb(109, 178, 206);
+    margin:auto;
+    background: url(estadio.jpg);
+
+}
+h2{
+    color: cornflowerblue;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+form{
+    margin:auto;
+    background:seashell;
+    padding: 10%;
+    /* margin: 20px; */
+    width: auto;
+    max-width: 500px;
+    border: 3px saddlebrown;
+    /* height: 500PX; */
+    text-align: center;
+}
+
+input{
+display:block;
+padding: 10px;
+width: 100%;
+margin: 20px 0px;
+font-size: 20px;
+}
+
+input[type="submit"]{
+    background: rgb(33, 194, 55);
+    color: rgb(39, 34, 18);
+    border: 0;
+    border-radius: 20px;
+    opacity: 0.86;
+    cursor:pointer;
+    text-align: center;
+}
+
+input[type="submit"]:hover{
+opacity: 1;
+}
+
+input[type="submit"]:active{
+    transform:scale(0.95);
+}
+
+@media(max-width:800px){
+    form{
+        background: darksalmon;
+        width: 75%;
+    }
+}
+
+@media(max-width:500px){
+    form{
+        background: turquoise;
+        width: 95%;
+    }
+}
